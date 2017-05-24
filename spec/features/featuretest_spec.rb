@@ -15,6 +15,6 @@ feature 'Main' do
     fill_in('player1', with: 'Daniele')
     fill_in('player2', with: 'Sam')
     click_button('Submit')
-    expect(page).to have_content('Daniele Sam')
+    expect(page).to have_content('Daniele vs Sam')
   end
 end
