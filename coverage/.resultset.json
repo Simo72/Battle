@@ -1,21 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/daniele/Git/Projects/web_battle/spec/features/enter_name_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/daniele/Git/Projects/web_battle/spec/features/player2_hit_points_spec.rb": [
-        1,
-        1,
-        1,
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/enter_name_spec.rb": [
         1,
         1,
         1,
@@ -23,7 +9,15 @@
         null,
         null
       ],
-      "/Users/daniele/Git/Projects/web_battle/spec/features/testing_infrastructure_spec.rb": [
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/player2_hit_points_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/testing_infrastructure_spec.rb": [
         1,
         1,
         1,
@@ -32,6 +26,6 @@
         null
       ]
     },
-    "timestamp": 1495638609
+    "timestamp": 1495641075
   }
 }
