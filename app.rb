@@ -2,6 +2,11 @@ require 'sinatra/base'
 
 class Battle < Sinatra::Base
   get '/' do
-    'Testing infrastructure working!'
+    erb :index
+  end
+
+  post '/names' do
+    @player1, @player2 = params[:player1], params[:player2]
+    erb :index
   end
 end
