@@ -1,0 +1,37 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/enter_name_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/testing_infrastructure_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1495635235
+  }
+}
