@@ -1,9 +1,9 @@
 <div>
-  <%= @player1 %> vs <%= @player2 %></br>
+  <%= @player1.name %> vs <%= @player2.name %></br>
 
-  <%= @player2 %> Hitpoints: <%= @player2_life %></br>
-    <label>
+  <%= @player2.name %> Hitpoints: <%= @player2_life %></br>
 
-    <button type="submit"onclick="return confirm('You opened up a whole can of whoop ass on player 2')">Attack Player 2</button>
-  </label>
+    <form action="/attack">
+      <input type="submit" value="Attack">
+    </form>
 </div>
