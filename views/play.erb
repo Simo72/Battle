@@ -5,8 +5,8 @@
 <br/><br>
   <%= @game.player1.name %> Hitpoints: <%= @game.player1.hp %></br>
   <%= @game.player2.name %> Hitpoints: <%= @game.player2.hp %></br></br>
-<% if @game.player2.hp == 0 %>
-  <h1>You lose <%= @game.player2.name %> <%= @game.player2.hp %> points!!!</br></h1>
+<% if @game.game_over?%>
+  <h1>You lose <%= @game.loser.name %> <%= @game.loser.hp %> points!!!</br></h1>
 <% end %></br>
 <br/><br>
   <%= @game.current_player.name %>'s turn
