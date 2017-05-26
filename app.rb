@@ -3,9 +3,7 @@ require './lib/player'
 require './lib/game'
 
 class Battle < Sinatra::Base
-  set :session_secret, "super-secret"
-  enable :sessions
-
+  
   get '/' do
     erb :index
   end
