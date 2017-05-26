@@ -21,6 +21,7 @@ describe Game do
       expect(player2).to receive(:damage)
       game.attack
     end
+
   end
 
   describe '#switch_turn' do

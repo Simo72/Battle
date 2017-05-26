@@ -10,7 +10,7 @@ describe Player do
 
 describe 'damage' do
   it 'reduces players HP' do
-    expect {ian.damage }.to change { ian.hp }.by(-10)
+    expect {ian.damage }.to change { ian.hp }.by(-Player::ATTACK_POINTS)
   end
 end
 end
